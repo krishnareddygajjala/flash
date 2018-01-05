@@ -1,0 +1,6 @@
+name,age,salary,address,mobile,email,region
+rajesh,25,40000,bangalore,9949298123,rajesh@gmail.com,south_india,1
+ramesh,26,50000,chennai,9949298124,ramesh@gmail.com,south_india,2
+rakesh,27,60000,hyderabad,9949298125,rakesh@gmail.com,south_india,3
+kamesh,28,45000,mumbai,9949298126,kamesh@gmail.com,north_india,4
+suresh,25,55000,delhi,9949298127,suresh@gmail.com,north_india,5
