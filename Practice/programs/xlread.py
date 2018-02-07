@@ -3,7 +3,7 @@ import xlrd
 
 
 
-xlwb = xlrd.open_workbook(r"C:\Users\Ram\Desktop\Book2.xlsx")
+xlwb = xlrd.open_workbook(r"C:\Users\Ram\git\flash\selenium-pyhton\project\sel\xlwrtfile0.xls")
 shname = xlwb.sheet_names()
 print shname
 for i in range(len(shname)):
