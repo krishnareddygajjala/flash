@@ -1,5 +1,5 @@
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
+#from selenium.webdriver.common.action_chains import ActionChains
 
 driver = webdriver.Chrome(executable_path="F:\selenium required software\selenium drivers\chromedriver.exe")
 #driver = webdriver.Firefox(executable_path="F:\selenium required software\selenium drivers\geckodriver.exe")
