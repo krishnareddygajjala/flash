@@ -5,3 +5,10 @@ my third line
 my fourth line 
 this is the fifth line (appended) 
 this is the sixth line (appended) 
+this is the sixth line (appended) 
+this is the sixth line (appended) 
+this is the sixth line (appended) 
+this is the sixth line (appended) 
+this is the sixth line (appended) 
+this is the sixth line (appended) 
+this is the sixth line (appended) 
