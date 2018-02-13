@@ -22,3 +22,8 @@ for x in data[1:]:
     if (str(lst[-2])) == st :
         print "name = ",lst[0]
         print "email= ",lst[-3] 
+
+
+
+
+
