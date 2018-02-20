@@ -3,7 +3,7 @@
 
 string = "venkata krishna reddy"
 for i in string:
-    print i,
+    print i
     
 print string[::-1]
     

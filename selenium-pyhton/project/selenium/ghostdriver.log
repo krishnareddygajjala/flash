@@ -1,16 +1,7 @@
-[INFO  - 2018-02-09T18:29:43.822Z] GhostDriver - Main - running on port 53339
-[INFO  - 2018-02-09T18:29:47.266Z] Session [34ecfe80-0dc7-11e8-9bda-49cc463b3482] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
-[INFO  - 2018-02-09T18:29:47.267Z] Session [34ecfe80-0dc7-11e8-9bda-49cc463b3482] - page.customHeaders:  - {}
-[INFO  - 2018-02-09T18:29:47.267Z] Session [34ecfe80-0dc7-11e8-9bda-49cc463b3482] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-02-09T18:29:47.268Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 34ecfe80-0dc7-11e8-9bda-49cc463b3482
-[INFO  - 2018-02-09T18:34:43.961Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:39:43.964Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:44:43.964Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:49:43.967Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:54:43.967Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:59:43.967Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:59:04.339Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:42:45.198Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:47:45.199Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:52:45.199Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2018-02-09T18:57:45.197Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-20T09:23:37.632Z] GhostDriver - Main - running on port 58861
+[INFO  - 2018-02-20T09:23:41.819Z] Session [bdc03e10-161f-11e8-bb3c-6749801dfcd7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-20T09:23:41.819Z] Session [bdc03e10-161f-11e8-bb3c-6749801dfcd7] - page.customHeaders:  - {}
+[INFO  - 2018-02-20T09:23:41.819Z] Session [bdc03e10-161f-11e8-bb3c-6749801dfcd7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-20T09:23:41.819Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bdc03e10-161f-11e8-bb3c-6749801dfcd7
+[INFO  - 2018-02-20T09:28:37.840Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-20T09:28:37.841Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session 'bdc03e10-161f-11e8-bb3c-6749801dfcd7', because windowless
