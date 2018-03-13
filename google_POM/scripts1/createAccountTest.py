@@ -30,6 +30,17 @@ class homepagetest(EnvironmentSetup):
             ca.getcity("bangalore")
             ca.getemail("krrishna9848@gmail.com")
             ca.getstreet("BTM")
+            ca.getpost_code(560029)
+            ca.getstate("karnataka")
+            ca.getsuburb("btm")
+            ca.getpassword("admin123")
+            ca.getpassword_confirmation("admin123")
+            #ca.getcountry()
+            
+            ca.gettelephone(123456789)
+            ca.getfax(321654987)
+            ca.getnewsletter().click()
+            #ca.getcontinue1().click()
             
             
             

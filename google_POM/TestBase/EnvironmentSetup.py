@@ -8,8 +8,8 @@ class EnvironmentSetup(unittest.TestCase):
     
     def setUp(self):
         self.driver = webdriver.Chrome(executable_path="C:\Users\Ram\PycharmProjects\untitled2\divers\chromedriver.exe")
-        print "*********************************"
         print "test environment started"
+        print "*********************************"
         self.driver.implicitly_wait(10)
         #self.driver.maximize_window()
 
