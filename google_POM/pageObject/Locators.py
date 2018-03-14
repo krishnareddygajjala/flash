@@ -25,4 +25,4 @@ class Locators(object):
     password = "//input[@name='password']"
     password_confirmation = "//input[@name='confirmation']"
     continue1 = "//button[@id='tdb4']"
-    
+    errmsg = "//td[@class = 'messageStackError']"

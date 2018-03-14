@@ -7,7 +7,8 @@ from selenium import webdriver
 class EnvironmentSetup(unittest.TestCase):
     
     def setUp(self):
-        self.driver = webdriver.Chrome(executable_path="C:\Users\Ram\PycharmProjects\untitled2\divers\chromedriver.exe")
+        path = 'C:\Users\Ram\PycharmProjects\untitled2\divers\chromedriver.exe'
+        self.driver = webdriver.Chrome(executable_path=path)
         print "test environment started"
         print "*********************************"
         self.driver.implicitly_wait(10)

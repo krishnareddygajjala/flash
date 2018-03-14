@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" name="homepagetest-20180314170536" skipped="0" tests="1" time="39.579" timestamp="2018-03-14T17:06:15">
+	<testcase classname="homepagetest" name="testca" time="39.579" timestamp="2018-03-14T17:06:15"/>
+	<system-out>
+<![CDATA[test environment started
+*********************************
+GCR Shop
+*********************************
+test environment destroyed
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

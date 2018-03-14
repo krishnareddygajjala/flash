@@ -1,6 +1,6 @@
 
 from pageObject.Locators import Locators
-
+from selenium.webdriver.support.ui import Select
 
 class createAccount(object):
     
@@ -27,6 +27,7 @@ class createAccount(object):
         self.password = driver.find_element_by_xpath(Locators.password)
         self.password_confirmation = driver.find_element_by_xpath(Locators.password_confirmation)
         self.continue1 = driver.find_element_by_xpath(Locators.continue1) 
+        #self.errmsg = driver.find_element_by_xpath(Locators.errmsg)
     
     def getradiobuttonmale(self):
         return self.male_radio
@@ -62,9 +63,8 @@ class createAccount(object):
     def getstate(self,state):
         self.state.clear()
         self.state.send_keys(state)
-    def getcountry(self,country):
-        self.country.clear()
-        self.country.send_keys(country)
+    def getcountry(self):
+        return self.country
     def gettelephone(self,telephone):
         self.telephone.clear()
         self.telephone.send_keys(telephone)
@@ -81,6 +81,11 @@ class createAccount(object):
         self.password_confirmation.send_keys(password_confirmation)
     def getcontinue1(self):
         return self.continue1
+    def select(self,locator,value):
+        select = Select(locator)
+        select.select_by_visible_text(value)
+    #def geterrmsg(self):
+        #return self.errmsg
         
         
         
