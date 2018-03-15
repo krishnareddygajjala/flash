@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="2" failures="0" name="homepagetest-20180314212225" skipped="0" tests="2" time="112.527" timestamp="2018-03-14T21:24:17">
+	<testcase classname="homepagetest" name="testca" time="0.000" timestamp="0001-01-01T00:00:00">
+		<error message="Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.162)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+" type="NoSuchWindowException">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\Ram\git\flash\google_POM\scripts1\createAccount_test.py", line 25, in testca
+    ca = createAccount(driver)
+  File "C:\Users\Ram\git\flash\google_POM\pageObject\pages\createAccountpage.py", line 11, in __init__
+    self.male_radio = driver.find_element_by_xpath(Locators.male_radio)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 385, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 955, in find_element
+    'value': value})['value']
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=65.0.3325.162)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+
+
+Stdout:
+test environment started
+*********************************
+]]>		</error>
+	</testcase>
+	<testcase classname="homepagetest" name="testca" time="112.527" timestamp="2018-03-14T21:24:17">
+		<error message="Message: chrome not reachable
+  (Session info: chrome=65.0.3325.162)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+" type="WebDriverException">
+<![CDATA[Traceback (most recent call last):
+  File "C:\Users\Ram\git\flash\google_POM\TestBase\EnvironmentSetup.py", line 20, in tearDown
+    self.driver.close()
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 679, in close
+    self.execute(Command.CLOSE)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 312, in execute
+    self.error_handler.check_response(response)
+  File "C:\Python27\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: chrome not reachable
+  (Session info: chrome=65.0.3325.162)
+  (Driver info: chromedriver=2.36.540470 (e522d04694c7ebea4ba8821272dbef4f9b818c91),platform=Windows NT 10.0.16299 x86_64)
+
+
+Stdout:
+test environment started
+*********************************
+*********************************
+test environment destroyed
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[test environment started
+*********************************
+test environment started
+*********************************
+*********************************
+test environment destroyed
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
