@@ -17,12 +17,12 @@ ind_mobile = r'^(?:(?:\+|0{0,2})91(\s*[\-]\s*)?|[0]?)?[789]\d{9}$'
 mobile = r'[6789]\d{9}'
 
 mail = re.findall( mails, text)
-print "mails :"+str(mail)
+print "mails :  "+str(mail)
 matchobj = re.match(r"welcome", s)
 #print matchobj2w1
 #print matchobj.group()
 
 mobile = re.findall(r'[6789]\d{9}', text)
-print mobile
+print "mobiles:  "+str(mobile)
 
 
