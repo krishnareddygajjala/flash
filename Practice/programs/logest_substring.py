@@ -22,4 +22,5 @@ def findlongest(f):
     print longestfound
 
 st = ['ABCDDEFGHIJKLMM12345677TUVWXYZZ']
+st1 = "experience"
 findlongest(st)

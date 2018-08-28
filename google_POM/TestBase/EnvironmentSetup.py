@@ -1,8 +1,6 @@
 
-import unittest
-#simport datetime
+import unittest2 as unittest
 from selenium import webdriver
-
 
 class EnvironmentSetup(unittest.TestCase):
     
@@ -19,3 +17,6 @@ class EnvironmentSetup(unittest.TestCase):
         print "test environment destroyed"
         self.driver.close()
         self.driver.quit()
+        
+        
+        

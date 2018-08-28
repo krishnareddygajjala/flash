@@ -1,7 +1,8 @@
-all_options = range(10)
-row = 0
-for option in all_options: 
-    col = 0
-    print "col:%s"%col
-    print "row:%s"%row
-    row+=1 
+
+with open(r"C:\Users\Ram\Desktop\imp\text12.txt","r") as f:
+    data = f.read()
+    print data
+if "line" in data:
+    print "it is there"
+    print data.count("line")
+    

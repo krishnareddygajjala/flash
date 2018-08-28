@@ -16,3 +16,5 @@ print pw
 print datetime.MAXYEAR
 print datetime.MINYEAR
 print datetime.tzinfo()
+print datetime.date.today()
+print datetime.time.tzinfo()

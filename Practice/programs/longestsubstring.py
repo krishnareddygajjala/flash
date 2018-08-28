@@ -1,6 +1,5 @@
 
 lst = []
-s ="ABCDDEFGHIJKLMM12345677TUVWXYZZ"
 def unique(s):
     i, j = 0, 0
     I, J = 0, 0
@@ -14,8 +13,9 @@ def unique(s):
             j += 1
         if J - I < j - i:
             I, J = i, j
+    print i,j,I,J
     return s[I:J]
-print unique('ABCDDEFGHIJKLMM12345677TUVWXYZZ')
+print unique('experience')
 
 
 

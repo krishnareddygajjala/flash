@@ -1,0 +1,6 @@
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:root:creating a list upto 10 numbers
+INFO:root:printing a complete list
+INFO:__main__:printing each element in a list using for loop
+INFO:__main__:printed successfully

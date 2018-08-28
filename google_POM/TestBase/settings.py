@@ -1,8 +1,4 @@
-'''
-Created on 13-Mar-2018
 
-@author: Ram
-'''
 # #####>>>>>----- RECOMMENDED SETTINGS -----<<<<<#####
 # ##### (For database reporting, saving test logs, and password encryption)
 

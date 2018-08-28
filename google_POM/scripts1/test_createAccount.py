@@ -1,12 +1,15 @@
 
+import os
 import sys
 import time
 import traceback
-import unittest
-import xmlrunner
+#import xmlrunner
+import HtmlTestRunner
+import unittest2 as unittest
 from TestBase.EnvironmentSetup import EnvironmentSetup
 from pageObject.pages.homepage import Home
 from pageObject.pages.createAccountpage import createAccount
+
 
 
 class homepagetest(EnvironmentSetup):
@@ -49,14 +52,20 @@ class homepagetest(EnvironmentSetup):
             time.sleep(5)
             print driver.title
             #print ca.geterrmsg().get_attribute("innerHTML")
+            
+            
+            
         except Exception as e:
             print e
             print traceback.format_exc(sys.exc_info())
 
 
 if  __name__ == '__main__':
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'),
-        # these make sure that some options that are not applicable
-        # remain hidden from the help menu.
-        failfast=False, buffer=False, catchbreak=False)
+    dirc = os.getcwd()
+    print dirc
+    file_name = "SeleniumPythonTestSummary.html"
+    
+    suite = unittest.TestLoader().loadTestsFromTestCase(homepagetest)
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(stream=sys.stderr, output=file_name, descriptions='Acceptance Tests', report_title="dummy html report"))
+        
         

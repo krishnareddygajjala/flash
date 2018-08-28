@@ -1,0 +1,10 @@
+DEBUG:root:added chrome arguments
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62029/session {"capabilities": {"alwaysMatch": {"goog:chromeOptions": {"args": ["--window-size=1920x1080", "--disable-notificationss"], "extensions": []}, "browserName": "chrome", "platformName": "any"}, "firstMatch": [{}]}, "desiredCapabilities": {"goog:chromeOptions": {"args": ["--window-size=1920x1080", "--disable-notificationss"], "extensions": []}, "platform": "ANY", "browserName": "chrome", "version": ""}}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:62029/session/09d9fd906a4a6c8cc57180a4983ded58/url {"url": "http://www.google.co.in", "sessionId": "09d9fd906a4a6c8cc57180a4983ded58"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:root:opened google search page
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:62029/session/09d9fd906a4a6c8cc57180a4983ded58/title {"sessionId": "09d9fd906a4a6c8cc57180a4983ded58"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:62029/session/09d9fd906a4a6c8cc57180a4983ded58/window {"sessionId": "09d9fd906a4a6c8cc57180a4983ded58"}
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request

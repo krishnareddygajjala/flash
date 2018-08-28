@@ -13,3 +13,7 @@ print od         #OrderedDict([('name', 'krishna'), ('age', 25), ('salary', 5000
 print od.items() #[('name', 'krishna'), ('age', 25), ('salary', 50000)]
 print od.keys()  #['name', 'age', 'salary']
 print od.values()#['krishna', 25, 50000]
+strr = 'venkata krishna reddy'
+print ''.join(od.fromkeys(strr))
+a = od.fromkeys(strr)
+print ''.join(a)

@@ -4,4 +4,5 @@ def factorial(num):
     return num * factorial(num - 1)
 
 n = input("enter a number : ")
+
 print factorial(n)

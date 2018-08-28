@@ -3,9 +3,9 @@ al = []
 for i in l:
     if i not in al:
         al.append(i)
-        
+ 
+print "removed duplicates using set()         :",list(set(l))       
 print "removed duplicates without using set() :" ,al
-print "removed duplicates using set()         :",list(set(l))
 
 string = raw_input("enter a string: " )
 

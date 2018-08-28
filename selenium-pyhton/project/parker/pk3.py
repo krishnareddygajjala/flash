@@ -4,7 +4,7 @@ from selenium import webdriver
 
 driver = webdriver.Chrome(executable_path="C:\Users\Ram\PycharmProjects\untitled2\divers\chromedriver.exe")
 driver.get("http://www.parker.com/portal/site/PARKER/menuitem.bc659799d3cf5c6315731910237ad1ca/?vgnextoid=ad6acab60275e210VgnVCM10000048021dacRCRD&vgnextfmt=EN")
-ele = driver.find_element_by_xpath(".//div/input[@id='searchHomeValue']")
+ele = driver.find_element_by_xpath("//div/input[@id='searchHomeValue']")
 time.sleep(10)
 print ele.is_displayed()
 print ele.is_enabled()

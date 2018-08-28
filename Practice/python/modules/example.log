@@ -1,0 +1,23 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:Watch out!
+INFO:root:I told you so
+INFO:TestProvisionEnrichCMCl1GNRn:Testing the Customer Information data
+INFO:TestProvisionEnrichCMCl1GNRn:Clicking on refresh button
+INFO:TestProvisionEnrichCMCl1GNRn:Order list header validation
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:Watch out!
+INFO:root:I told you so
+INFO:TestProvisionEnrichCMCl1GNRn:Testing the Customer Information data
+INFO:TestProvisionEnrichCMCl1GNRn:Clicking on refresh button
+INFO:TestProvisionEnrichCMCl1GNRn:Order list header validation
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:Watch out!
+INFO:root:I told you so
+INFO:__main__:Testing the Customer Information data
+INFO:__main__:Clicking on refresh button
+INFO:__main__:Order list header validation
